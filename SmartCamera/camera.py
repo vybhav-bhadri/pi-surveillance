@@ -4,6 +4,7 @@ import imutils
 import time
 import numpy as np
 
+#define pi camera class 
 class VideoCamera(object):
     def __init__(self, flip = False):
         self.vs = PiVideoStream().start()

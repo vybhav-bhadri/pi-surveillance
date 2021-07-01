@@ -1,5 +1,5 @@
 ## Pi Survelliance Camera
-This is a simple DIY project. IP survelliane camera is implemeted using Rasberry Pi. It rins a flask server which provides live video feed locally and remotely.
+This is a simple DIY project. IP survelliane camera is implemeted using Rasberry Pi. It runs a flask server which provides live video feed locally and remotely.
 
 ## Table of contents
 * [Technolgies](#technologies)

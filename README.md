@@ -4,6 +4,7 @@ This is a simple DIY project. IP survelliane camera is implemeted using Rasberry
 ## Table of contents
 * [Technolgies](#technologies)
 * [Setup](#setup)
+* [Snapshots](#snapshots)
 
 ## Technologies
 Project is created using:
@@ -60,6 +61,23 @@ $./ngrok http 5000
 This will generate a link and use this link to access stream.
 
 Note : Current implementation is a prototype of a survelliance system. To use this in real world features such as user authentication, admin panel and auto startup of the camera need to be implemented.
+
+# Snapshots
+
+## Rasberry pi setup
+![IMG_20210629_181909](https://user-images.githubusercontent.com/54641149/124130854-d64c2580-da9c-11eb-8f89-3cd8644014a9.jpg)
+
+## Accessing Pi camera remotely using ngrok
+![Screenshot_20210629-182313](https://user-images.githubusercontent.com/54641149/124131090-16aba380-da9d-11eb-89f0-7fd3f70f5b2d.jpg)
+### Note: User authentication can be implemeted using flask_login. Currently Register User does not have any verification by the admin.  
+
+## Live Stream
+![Screenshot_20210629-182422](https://user-images.githubusercontent.com/54641149/124131274-4195f780-da9d-11eb-8947-afa5eacdd373.jpg)
+### Note: Notofiactions features is not implemented. This can be used to alert user, motion detected using openCV.
+
+
+
+
 
 
 

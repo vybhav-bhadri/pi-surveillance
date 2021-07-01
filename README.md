@@ -21,7 +21,7 @@ $ sudo raspi-config
 Selelt Interface, then enable Pi camera and select Finish.
 Check that camera is working by running this command in terminal
 ```
-$ raspistill -o image.jpg
+$ raspistill -o imgname.jpg
 
 ```
 ## Project Setup

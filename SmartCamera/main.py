@@ -8,6 +8,7 @@ main = Blueprint('main', __name__)
 
 video_camera = VideoCamera(flip=True) # creates a camera object, flip vertically
 
+#capture frame and yeild. Note yield is used because of generator func.
 def gen_vid(camera):
     while True:
         frame = camera.get_frame()
@@ -19,6 +20,7 @@ def gen_vid(camera):
 def index():
     return render_template('index.html',name=current_user.name)
 
+#renponse video
 @main.route('/video_feed')
 def video_feed():
     return Response(gen_vid(video_camera),mimetype='multipart/x-mixed-replace; boundary=frame')
